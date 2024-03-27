@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.side-bar {
+    background-color: #1A0931;
+    min-width: 68px;
+    height: 100vh;
+}
+
+.side-bar .img {
+    display: flex;
+    justify-content: center;
+}
+
+.side-bar .img img {
+    margin-top: 20px;
+    width: 38px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.home {
+    z-index: 1000;
+    margin-left: 50px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.home .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1 {
+    background: #FEFEFF;
+    width: 306px;
+    height: 340px;
+    border: 1px solid #F2F2F0;
+    border-radius: 8px;
+    margin-top: 28px;
+}
+
+.card1 .card1-title {
+    width: 282px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color:#5D6372;
+}
+
+.card1 .card1-date {
+    width: 282px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6372;
+    font-weight: bold;
+}
+
+.card1 .card1-1 {
+    border: 2px solid #F2F2F4;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 282px;
+    height: 116px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.card1 .card1-1 .card1-1-title {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    color: #2F3136;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.card1 .card1-1 .card1-1-items span {
+    width: 250px;
+    height: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5D6372;
+}
+
+.card1 .card1-1 .card1-1-items span img {
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.card1 .card1-1 .card1-1-icons img {
+    width: 14px;
+    height: 5px;
+    margin-left: 250px;
+    margin-top: -10px;
+}
+
+.card1 .card1-2 {
+    border: 2px solid #F2F2F4;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 282px;
+    height: 96px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.card1 .card1-2 .card1-2-title {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    color: #2F3136;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: -20px;
+}
+
+.card1 .card1-2 .card1-2-items span {
+    width: 250px;
+    height: 16px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5D6372;
+}
+
+.card1 .card1-2 .card1-2-items span img {
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.card1 .card1-2 .card1-2-icons img {
+    width: 14px;
+    height: 5px;
+    margin-left: 250px;
+    margin-top: -10px;
+}
+
+.card1 .end-title1 span {
+    width: 145px;
+    height: 36px;
+    margin-top: 16px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #2F3136;
+}
+
+.card1 .end-title1 span img {
+    width: 8px;
+    height: 8px;
+    margin-top: 16px;
+    margin-right: 8px;
+}
+
+.card2 {
+    background: #FEFEFF;
+    width: 306px;
+    height: 148px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    margin-top: 28px;
+    margin-left: 16px;
+}
+
+.card2 .card2-title {
+    width: 282px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color:#5D6372;
+}
+
+.card2 .card2-date {
+    width: 282px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6372;
+    font-weight: bold;
+}
+
+.card2 .card2-notes {
+    width: 282px;
+    height: 20px;
+    margin-top: 25px;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #B7BDC9;
+}
+
+.card2 .end-title2 span {
+    width: 145px;
+    height: 36px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #2F3136;
+}
+
+.card2 .end-title2 span img {
+    width: 8px;
+    height: 8px;
+    margin-top: 32px;
+    margin-right: 8px;
+}
+
+.card3 {
+    background: #FEFEFF;
+    width: 306px;
+    height: 232px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    margin-top: 28px;
+    margin-left: 16px;
+}
+
+.card3 .card3-title {
+    width: 282px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color:#5D6372;
+}
+
+.card3 .card3-date {
+    width: 282px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6372;
+    font-weight: bold;
+}
+
+.card3 .card3-1 {
+    border: 2px solid #F2F2F4;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 282px;
+    height: 116px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.card3 .card3-1 .card3-1-title {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    color: #2F3136;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.card3 .card3-1 .card3-1-items span {
+    width: 250px;
+    height: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5D6372;
+}
+
+.card3 .card3-1 .card3-1-items span img {
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.card3 .card3-1 .card3-1-icons img {
+    width: 14px;
+    height: 5px;
+    margin-left: 250px;
+    margin-top: -10px; 
+}
+
+.card3 .end-title3 span {
+    width: 145px;
+    height: 36px;
+    margin-top: 16px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #2F3136;
+}
+
+.card3 .end-title3 span img {
+    width: 8px;
+    height: 8px;
+    margin-top: 16px;
+    margin-right: 8px;
+}
+
+.card4 {
+    background: #FEFEFF;
+    width: 306px;
+    height: 232px;
+    border: 1px solid #F2F2F4;
+    border-radius: 8px;
+    margin-top: 28px;
+    margin-left: 16px;
+    margin-right: 35px;
+}
+
+.card4 .card4-title {
+    width: 282px;
+    height: 16px;
+    margin-top: 12px;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color:#5D6372;
+}
+
+.card4 .card4-date {
+    width: 282px;
+    height: 20px;
+    margin-top: 3px;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5D6372;
+    font-weight: bold;
+}
+
+.card4 .card4-1 {
+    border: 2px solid #F2F2F4;
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 282px;
+    height: 116px;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.card4 .card4-1 .card4-1-title {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    color: #2F3136;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.card4 .card4-1 .card4-1-items span {
+    width: 250px;
+    height: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5D6372;
+}
+
+.card4 .card4-1 .card4-1-items span img {
+    width: 10px;
+    height: 10px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.card4 .card4-1 .card4-1-icons img {
+    width: 14px;
+    height: 5px;
+    margin-left: 250px;
+    margin-top: -10px; 
+}
+
+.card4 .end-title4 span {
+    width: 145px;
+    height: 36px;
+    margin-top: 16px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #2F3136;
+}
+
+.card4 .end-title4 span img {
+    width: 8px;
+    height: 8px;
+    margin-top: 16px;
+    margin-right: 8px;
+}
